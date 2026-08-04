@@ -1,0 +1,47 @@
+[
+  {
+    "id": "explorer",
+    "name": "The Explorer",
+    "icon": "🧭",
+    "flavorTemplates": [
+      "You have visited {biomes} biomes, have {bases} unfinished bases, and somehow your bed is always {distance} blocks away.",
+      "You've walked {distance} blocks from home and called it 'just checking something out.' {biomes} biomes and counting."
+    ]
+  },
+  {
+    "id": "builder",
+    "name": "The Builder",
+    "icon": "🏛️",
+    "flavorTemplates": [
+      "You've placed roughly {blocks} blocks with intention, redesigned your base {redesigns} times, and still aren't satisfied.",
+      "Symmetry is a personality trait. {blocks} blocks placed, {redesigns} full redesigns, zero regrets."
+    ]
+  },
+  {
+    "id": "miner",
+    "name": "The Miner",
+    "icon": "⛏️",
+    "flavorTemplates": [
+      "You've mined {ores} ore blocks, dug {caves} cave systems, and your pickaxe has seen things.",
+      "{ores} ores mined, {caves} caves explored. Sunlight is a concept you vaguely remember."
+    ]
+  },
+  {
+    "id": "redstone",
+    "name": "The Redstone Engineer",
+    "icon": "🔴",
+    "flavorTemplates": [
+      "You've built {contraptions} contraptions, debugged {bugs} wiring disasters, and explained circuits to nobody who asked.",
+      "{contraptions} machines built. {bugs} of them technically still on fire."
+    ]
+  },
+  {
+    "id": "chaos",
+    "name": "Agent of Chaos",
+    "icon": "🌀",
+    "flavorTemplates": [
+      "You've triggered {explosions} unplanned explosions, lost {items} items to lava, and somehow this is a lifestyle.",
+      "{explosions} explosions you definitely meant to cause, {items} inventory slots' worth of regret."
+    ]
+  }
+]

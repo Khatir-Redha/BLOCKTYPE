@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Press Start 2P', monospace;
+  --color-bg: #0F0F15;
+  --color-card: #1A1C23;
+  --color-primary: #8BC34B;
+  --color-secondary: #5DADE2;
+  --color-accent: #FFD60B;
+  --color-text: #E8E8E8;
+  --color-text-secondary: #A0A0B0;
+  --color-border: #2E303A;
+  --animate-moveClouds: moveClouds 50s linear infinite;
+  --animate-float: float 10s ease-in-out infinite alternate;
+  --animate-twinkle: twinkle 5s ease-in-out infinite;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+  letter-spacing: -0.04em;
+}
+
+@keyframes moveClouds {
+  0% {
+    transform: translateX(-100px) scale(1);
+  }
+  100% {
+    transform: translateX(calc(100vw + 100px)) scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(-10px) scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-5px) scale(1);
+    opacity: 0.4;
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+

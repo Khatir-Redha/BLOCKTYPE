@@ -1,0 +1,102 @@
+[
+  {
+    "id": "q1",
+    "text": "You spawn in a new world. First move?",
+    "options": [
+      { "text": "Run in a random direction and see what's out there", "weights": { "explorer": 3, "chaos": 1 } },
+      { "text": "Punch a tree and start planning a base", "weights": { "builder": 3 } },
+      { "text": "Dig straight down", "weights": { "miner": 3, "chaos": 2 } },
+      { "text": "Immediately start scoping out a redstone contraption idea", "weights": { "redstone": 3 } }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "How many unfinished builds do you currently have?",
+    "options": [
+      { "text": "None, I finish everything", "weights": { "builder": 3 } },
+      { "text": "1-2, life got busy", "weights": { "builder": 1, "explorer": 1 } },
+      { "text": "Honestly? Lost count", "weights": { "chaos": 3, "explorer": 2 } },
+      { "text": "They're all 'temporary' bases from exploring", "weights": { "explorer": 3 } }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "Your bed situation right now:",
+    "options": [
+      { "text": "Right next to my main base, obviously", "weights": { "builder": 2 } },
+      { "text": "2,000 blocks away in some cave I forgot about", "weights": { "explorer": 3, "chaos": 2 } },
+      { "text": "I don't sleep, I mine", "weights": { "miner": 3 } },
+      { "text": "Wired to an alarm system I built", "weights": { "redstone": 3 } }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "A creeper blows up part of your base. Reaction?",
+    "options": [
+      { "text": "Immediately start rebuilding, better than before", "weights": { "builder": 3 } },
+      { "text": "Take it as a sign to go explore somewhere new", "weights": { "explorer": 2, "chaos": 1 } },
+      { "text": "Laugh, add it to the chaos pile", "weights": { "chaos": 3 } },
+      { "text": "Design an automatic creeper-proof perimeter", "weights": { "redstone": 3 } }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "Ideal Saturday in Minecraft:",
+    "options": [
+      { "text": "Strip mining until I lose track of time", "weights": { "miner": 3 } },
+      { "text": "Charting unexplored terrain", "weights": { "explorer": 3 } },
+      { "text": "Perfecting a build's symmetry for 4 hours", "weights": { "builder": 3 } },
+      { "text": "Building a machine nobody asked for", "weights": { "redstone": 3, "chaos": 1 } }
+    ]
+  },
+  {
+    "id": "q6",
+    "text": "How organized is your inventory?",
+    "options": [
+      { "text": "Perfectly sorted, always", "weights": { "builder": 2, "redstone": 1 } },
+      { "text": "A beautiful disaster", "weights": { "chaos": 3 } },
+      { "text": "Mostly cobblestone and questionable decisions", "weights": { "miner": 2, "chaos": 1 } },
+      { "text": "Sorted by what I need for exploring", "weights": { "explorer": 2 } }
+    ]
+  },
+  {
+    "id": "q7",
+    "text": "You find a village. What now?",
+    "options": [
+      { "text": "Trade efficiently and move on", "weights": { "explorer": 2, "miner": 1 } },
+      { "text": "Renovate the entire thing", "weights": { "builder": 3 } },
+      { "text": "Rig up automatic farms for every villager", "weights": { "redstone": 3 } },
+      { "text": "Accidentally start a chain of events involving a bed and a lightning-struck villager", "weights": { "chaos": 3 } }
+    ]
+  },
+  {
+    "id": "q8",
+    "text": "Your relationship with the Nether:",
+    "options": [
+      { "text": "Efficient highway system, obviously", "weights": { "redstone": 2, "builder": 1 } },
+      { "text": "I go in, I get lost, it's fine", "weights": { "explorer": 2, "chaos": 2 } },
+      { "text": "Mining ancient debris nonstop", "weights": { "miner": 3 } },
+      { "text": "I've built a small city there", "weights": { "builder": 3 } }
+    ]
+  },
+  {
+    "id": "q9",
+    "text": "Someone asks what you're building. You say:",
+    "options": [
+      { "text": "A detailed explanation with a blueprint", "weights": { "builder": 3 } },
+      { "text": "'I'll know when it's done'", "weights": { "chaos": 2, "explorer": 1 } },
+      { "text": "A circuit diagram, mostly", "weights": { "redstone": 3 } },
+      { "text": "Honestly still mining, haven't decided", "weights": { "miner": 2 } }
+    ]
+  },
+  {
+    "id": "q10",
+    "text": "Your world's biggest achievement so far:",
+    "options": [
+      { "text": "A base that looks like it belongs in a magazine", "weights": { "builder": 3 } },
+      { "text": "Visited every biome type", "weights": { "explorer": 3 } },
+      { "text": "A fully automated farm system", "weights": { "redstone": 3 } },
+      { "text": "Surviving my own chaos long enough to matter", "weights": { "chaos": 3 } }
+    ]
+  }
+]
