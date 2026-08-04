@@ -74,7 +74,7 @@ export default function QuizScreen({ onBack, onResult }: { onBack: () => void; o
   const [currentIndex, setCurrentIndex] = useState(loadIndex)
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
-  const questions = questionsData as Question[]
+  const questions = questionsData as unknown as Question[]
   const archetypes = archetypesData as Archetype[]
   const total = questions.length
   const current = questions[currentIndex]
@@ -95,9 +95,10 @@ export default function QuizScreen({ onBack, onResult }: { onBack: () => void; o
       saveAnswers(next)
 
       if (currentIndex < total - 1) {
+        const nextIndex = currentIndex + 1
         setTimeout(() => {
-          setCurrentIndex((prev) => prev + 1)
-          saveIndex(prev + 1)
+          setCurrentIndex(nextIndex)
+          saveIndex(nextIndex)
         }, 150)
       } else {
         setTimeout(() => {
